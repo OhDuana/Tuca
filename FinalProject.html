@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCI
+    </title>
+
+<style>
+    body{background:#0BEFA2; }
+    
+    h1 {text-align: center;}
+
+    h2 {text-align: center;}
+    
+    img{ display: block;
+         margin: 0 auto;
+         max-width: 50%;}
+
+    p {text-align: center;
+       font-size: 12pt;
+        line-height: 1.5;
+        margin: 0 auto;}
+    
+    button{ display: block;
+    margin: 0 auto;
+    background: #EEC801;
+    color:black;
+    font-size: 12px;
+    padding:10px;
+    border: none;
+    }
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.bottom{text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+  <h1>Visit Turks and Caicos</h1>  
+
+<h2>You're Invited to Thursday Night Fish Fry</h2>
+<img src="https://www.vacationexpress.com/media/images/destination-pages/turks-caicos/dest-hdr-pls.jpg" />
+
+<br>
+<p><b><u>The Island Fish Fry</u></b>
+    <br>
+
+<br>
+The Island Fish Fry occurs every Thursday from 5:30pm to 9:30pm at the Kids Park in the Lower Bight, Providenciales. The
+Island Fish Fry is the most sought-after weekly event and features over a dozen restaurant and souvenir vendors, a live
+band, cultural performances that come together to create an evening of “all things Turks & Caicos”.
+
+The weekly event hosted by the Turks and Caicos Tourist Board, entices locals and visitors alike to experience an
+evening of fun in a family friendly setting. The evening culminates with Junkanoo (a traditional procession of
+masqueraders in costume dancing to the rhythm of drums, cowbells and other native instruments). Come and enjoy succulent
+local food, great entertainment and a first-hand look at Turks & Caicos’ culture steps away from the world’s best beach
+– Grace Bay.
+</p>
+
+<button class= "rsvp-Button" > RSVP For The Fish Fry</button>
+
+<script>
+
+function rsvp(){
+    let name = prompt("What is your name?");
+    let email = prompt("What is your email address?");
+    alert ("Thank you "  + name + ", we will email you shortly!");
+}
+
+    let rsvpButton = document.querySelector(".rsvp-Button");
+    rsvpButton.addEventListener("click", rsvp);
+
+</script>
+</body>
+<br>
+
+<p class="bottom">
+<b>This page was built by Duana Malcolm</b></p>
+</html>
